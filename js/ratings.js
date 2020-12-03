@@ -8,5 +8,8 @@ function collect_ratings() {
 
     // 5. Select HTML Elements
     const elements = document.querySelectorAll(".rating");
+
+    // 6. Use the forEach Function
+    elements.forEach(element => {});
 }
 
