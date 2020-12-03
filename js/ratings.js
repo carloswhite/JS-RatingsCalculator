@@ -20,7 +20,11 @@ function collect_ratings() {
         // 8. Set an Object Value - sum
        ratings.sum += parseInt(element.value) * rating;
 
-       // 10. Prevent Divide by Zero
     });
+
+    // 10. Prevent Divide by Zero
+    if (ratings.count !== 0) {
+        
+    }
 }
 
