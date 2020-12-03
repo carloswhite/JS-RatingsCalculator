@@ -26,8 +26,14 @@ function collect_ratings() {
     if (ratings.count !== 0) {
         // 11. Calculate Average Rating
         ratings.average += ratings.sum / ratings.count;
-        // 12. Return Ratings
-        return ratings;
     }
+
+    // 12. Return Ratings
+    return ratings;
+
 }
+
+// 13. Change Event - Handler
+document.addEventListener('change', () => {});
+
 
