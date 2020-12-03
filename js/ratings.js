@@ -6,5 +6,7 @@ function collect_ratings() {
     // 4. Create a Let Binding
     let rating = 0;
 
+    // 5. Select HTML Elements
+    const elements = document.querySelectorAll(".rating");
 }
 
