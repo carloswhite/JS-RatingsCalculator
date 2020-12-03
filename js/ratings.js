@@ -12,6 +12,9 @@ function collect_ratings() {
     // 6. Use the forEach Function
     elements.forEach(element => {
         rating = parseInt(element.id.replace("star", ""));
+
+        // 7. Set an Object Value - count
+       ratings.count += parseInt(element.value);
     });
 }
 
