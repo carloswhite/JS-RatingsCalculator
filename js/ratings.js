@@ -24,7 +24,8 @@ function collect_ratings() {
 
     // 10. Prevent Divide by Zero
     if (ratings.count !== 0) {
-        
+        // 11. Calculate Average Rating
+        ratings.average += ratings.sum / ratings.count;
     }
 }
 
