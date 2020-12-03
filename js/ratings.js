@@ -15,6 +15,9 @@ function collect_ratings() {
 
         // 7. Set an Object Value - count
        ratings.count += parseInt(element.value);
+
+        // 8. Set an Object Value - sum
+       ratings.sum += parseInt(element.value) * rating;
     });
 }
 
