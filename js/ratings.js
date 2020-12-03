@@ -33,7 +33,10 @@ function collect_ratings() {
 
 }
 
-// 13. Change Event - Handler
-document.addEventListener('change', () => {});
+// 13. Call Collect Ratings Function
+document.addEventListener('change', () => {
+    const ratings = collect_ratings();
+
+});
 
 
