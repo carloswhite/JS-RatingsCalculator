@@ -1,9 +1,10 @@
 // 2. Collect Ratings Function
 function collect_ratings() {
-    const ratings = new Object();
-    ratings.count = 0;
-    ratings.sum = 0;
-    ratings.average = 0;
+    // 3. Create a Ratings Object
+    const ratings = {'count': 0, 'sum': 0, 'average': 0};
+
+    // 4. Create a Let Binding
+    let rating = 0;
 
 }
 
