@@ -33,10 +33,12 @@ function collect_ratings() {
 
 }
 
-// 13. Call Collect Ratings Function
+// 13. Change Event - Handler 
 document.addEventListener('change', () => {
+    // 14. Call Collect Ratings Function
     const ratings = collect_ratings();
-
+    // 15. Set Value of Input Element
+    document.querySelector('#average').value = ratings.average.toFixed(2);
 });
 
 
