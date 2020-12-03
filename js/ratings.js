@@ -10,6 +10,8 @@ function collect_ratings() {
     const elements = document.querySelectorAll(".rating");
 
     // 6. Use the forEach Function
-    elements.forEach(element => {});
+    elements.forEach(element => {
+        rating = parseInt(element.id.replace("star", ""));
+    });
 }
 
